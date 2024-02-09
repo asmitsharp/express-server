@@ -30,7 +30,7 @@ app.use((req, res, next) => {
   console.log(`${req.method} ${req.url} ${delta}ms`)
 })
 
-app.use(expres.json())
+app.use(express.json())
 
 app.get("/friends", (req, res) => {
   res.json(friends)
