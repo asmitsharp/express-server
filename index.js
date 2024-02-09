@@ -40,7 +40,7 @@ app.get("/friends/:friendId", (req, res) => {
 })
 
 app.get("/", (req, res) => {
-  res.send("Helloooo")
+  res.send("Hellooo")
 })
 
 app.get("/messages", (req, res) => {
